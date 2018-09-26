@@ -1,0 +1,98 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    padding: 0px;
+    text-align: left;
+}
+
+ header {
+    background: linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1));
+    width: 100%;
+    height: 10%;
+    padding: 0px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    margin: center;
+ }
+
+ tbody {
+    background: linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, .1), rgba(0, 0, 0, 1));
+
+ }
+ 
+footer {
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .1));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .1));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .1));
+    position: fixed;
+    bottom:0px;
+    width: 100%;
+}
+
+ h1 {
+    text-align: center;
+    color: skyblue;
+    font-size: 7em;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: pink;
+
+}
+
+h3 {
+    text-align: center;
+    color: greenyellow;
+    margin: 10px;
+    font-size: 2em;
+}
+
+ /* unvisited link* */
+a:link {
+    color: powderblue;
+}
+
+/* visited link */
+a:visited {
+    color: mediumpurple;
+}
+
+/* mouse over link */
+a:hover {
+    color: aqua;
+}
+
+/* selected link */
+a:active {
+    color: palevioletred;
+} 
+
+/*zoom hover flags*/
+* {
+    box-sizing: border-box;
+}
+
+.zoom {
+    padding: 20px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+ .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+} 

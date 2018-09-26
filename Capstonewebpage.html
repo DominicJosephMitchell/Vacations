@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Vacation's</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="template.js" type="text/javascript"></script>
+
+    <style>
+        body {
+            background-image: url("imagebackground/sparkle.png");
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row>.column {
+            padding: 0 8px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .column {
+            float: left;
+            width: 18%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>Vacations</h1>
+            <h2>Select the Album you would like to view !</h2>
+            <div class="topnav"></div>
+            <h3>
+                <span style="margin-left:0px;"><a href="disney.html" target="_parent">DISNEY</a></span>
+                <span style="margin-left:100px;"><a href="germany.html" target="_parent">GERMANY</a></span>
+                <span style="margin-left:100px;"><a href="ireland.html" target="_parent">IRELAND</a></span>
+                <span style="margin-left:100px;"><a href="italy.html" target="_parent">ITALY</a></span>
+                <span style="margin-left:100px;"><a href="virginia.html" target="_parent">Virginia</a></span>
+            </h3>
+        </header>
+    </div>
+    <br>
+    <br>
+
+    <body>
+        <div class="row">
+            <div class="zoom column">
+                <a href="disney.html">
+                    <img border="0" alt="disney" src="flags/disney.jpg" width="80%">
+            </div>
+
+            <div class="zoom column">
+                <a href="germany.html">
+                    <img border="0" alt="germany" src="flags/germany.jpg" width="100%">
+            </div>
+
+            <div class="zoom column">
+                <a href="ireland.html">
+                    <img border="0" alt="ireland" src="flags/ireland.jpg" width="100%">
+            </div>
+
+            <div class="zoom column">
+                <a href="italy.html">
+                    <img border="0" alt="italy" src="flags/italy.jpg" width="70%">
+            </div>
+
+            <div class="zoom column">
+                <a href="virginia.html">
+                    <img border="0" alt="virginia" src="flags/virginia.jpg" width="110%">
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <iframe class="footer" src="footer.html" height="40" width="100%" scrolling="no"></iframe>
+    </footer>
+
+</body>
+
+</html>
