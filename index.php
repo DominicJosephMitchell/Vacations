@@ -1,1 +1,2 @@
-<?php include_once("Capstonewebpage.html"); ?>
+<?php 
+include_once("Capstonewebpage.html"); ?>
